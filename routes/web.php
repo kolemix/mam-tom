@@ -16,6 +16,16 @@ Route::get('/openrouter', [OpenRouterController::class, 'chat']);
 
 Route::get('/openrouter', [OpenRouterController::class, 'chat']);
 
+use App\Http\Controllers\MovieControllerDung;
+
+Route::get('/movie-manager/create', [MovieControllerDung::class, 'create'])->name('movie-manager.create');
+Route::post('/movie-manager', [MovieControllerDung::class, 'store'])->name('movie-manager.store');
+
+
+
+Route::get('/movie-manager', [MovieControllerDung::class, 'index'])->name('movie-manager.index');
+Route::get('/movie-manager/create', [MovieControllerDung::class, 'create'])->name('movie-manager.create');
+Route::post('/movie-manager', [MovieControllerDung::class, 'store'])->name('movie-manager.store');
 
 use App\Http\Controllers\MovieControllerBang;
 

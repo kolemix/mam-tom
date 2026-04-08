@@ -1,3 +1,4 @@
+@props(['title' => 'Trang phim', 'genre' => null])
 @props(['title' => 'Quản lý phim', 'genre' => []])
 
 <!DOCTYPE html>
