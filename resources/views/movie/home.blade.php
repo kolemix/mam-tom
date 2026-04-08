@@ -1,4 +1,4 @@
-<x-movie-layout :title="'Movie'" :genre="$genre">
+<x-movie-layout :title="'Trang chủ'" :genre="$genre">
 
 <div class="list-movie">
     @foreach($movies as $movie)
