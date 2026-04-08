@@ -1,3 +1,4 @@
+@props(['title' => 'Trang phim', 'genre' => null])
 <!DOCTYPE html>
 <html>
     <head>
@@ -126,3 +127,5 @@
         </main>
     </body>
 </html>
+
+<html lang="vi">
