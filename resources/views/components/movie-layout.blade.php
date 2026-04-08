@@ -1,3 +1,5 @@
+@props(['title', 'genre'])
+
 <!DOCTYPE html>
 <html>
     <head>
@@ -45,7 +47,7 @@
                 background-image:url('{{asset('images/banner.jpg')}}');
                 background-size:cover;
                 color:white;
-                margin:0 auto;
+                margin:0 auto
             }
             .search-input
             {
